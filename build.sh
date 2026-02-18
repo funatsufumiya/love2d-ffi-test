@@ -5,7 +5,7 @@ if [ -n "$MSYSTEM" ]; then
 elif [ "$COMSPEC" != "" ]; then
     gcc -o hello.dll -shared hello.c
 elif [ "$(uname)" == 'Darwin' ]; then
-    gcc -o hello.dylib -shared hello.c
+    gcc -o libhello.dylib -shared hello.c
 else
-    gcc -o hello.so -shared hello.c
+    gcc -o libhello.so -shared hello.c
 fi
