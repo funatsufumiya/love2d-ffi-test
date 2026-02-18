@@ -4,4 +4,8 @@
 
 ```bash
 love --console .
+
+# Linux (Ubuntu)
+
+LD_LIBRARY_PATH=. love --console .
 ```
