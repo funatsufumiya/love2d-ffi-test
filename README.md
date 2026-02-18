@@ -3,9 +3,9 @@
 ## Usage
 
 ```bash
-love --console .
+$ love --console .
 
 # Linux (Ubuntu)
 
-LD_LIBRARY_PATH=. love --console .
+$ LD_LIBRARY_PATH=. love --console .
 ```
