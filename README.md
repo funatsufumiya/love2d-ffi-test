@@ -1,4 +1,4 @@
-# love-ffi-test
+# love2d-ffi-test
 
 ## Usage
 
